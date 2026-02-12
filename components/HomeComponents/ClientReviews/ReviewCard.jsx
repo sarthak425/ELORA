@@ -7,7 +7,7 @@ const ReviewCard = ({ data }) => {
             <div className="flex flex-col justify-between card_stylings w-80 md:w-96 h-full  p-4 md:p-8">
                 <div className="flex justify-between items-center">
                     <div className="flex flex-col gap-1">
-                        <span className="text-sm text-black font-bold">{data?.clientName}</span>
+                        <span className="text-sm text-amber-900 font-bold">{data?.clientName}</span>
                         <div className="text-xs text-black flex items-center gap-1 ">
                             <FaStar />
                             <em>{data?.clientLocation}</em>

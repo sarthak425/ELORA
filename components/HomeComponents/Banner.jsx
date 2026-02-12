@@ -34,7 +34,7 @@ const Banner = () => {
                   </span>
                 </span>
               </div>
-              <Link href="/portfolio" className="button">
+              <Link href="/portfolio" className="button !bg-rose-500 hover:!bg-red-500">
                 Explore
               </Link>
               
@@ -58,7 +58,7 @@ const Banner = () => {
 
 const Stat = ({ value, label }) => (
   <div className="flex items-center gap-x-2">
-    <span className="text-lg md:text-xl xl:text-2xl text-Green font-bold">{value}</span>
+    <span className="text-lg md:text-xl xl:text-2xl text-red-400 font-bold">{value}</span>
     <span className="text-sm md:text-base xl:text-lg text-black">{label}</span>
   </div>
 );

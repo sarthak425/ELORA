@@ -17,7 +17,7 @@ body {
       @apply transition-all delay-200 !duration-1000;
     }
     .card_stylings {
-      @apply bg-EveningBlack border border-DarkGray/30 rounded-xl shadow-sm hover:bg-gradient-to-br hover:from-Green/10 hover:to-Black/5;
+      @apply bg-EveningBlack border border-red-100/20 rounded-xl shadow-sm hover:bg-gradient-to-br hover:from-red-200/10 hover:to-red-50/5;
     }
     .button {
       @apply bg-Green hover:bg-Green/90 transition rounded-xl text-Snow text-base font-medium px-8 py-2 shadow-sm;
@@ -73,13 +73,13 @@ body {
         
         /* Handle */
         ::-webkit-scrollbar-thumb {
-            background: #6FAE8E; 
+            background: #C8A45D; 
             border-radius: 8px;
         }
         
         /* Handle on hover */
         ::-webkit-scrollbar-thumb:hover {
-            background: #6FAE8E; 
+            background: #B88E46; 
         }
     }
 
@@ -115,7 +115,7 @@ body {
     height: 200px;
   }
   .boxShodow:hover{
-    box-shadow: rgba(111,174,142,1) 0px 2px 5px -1px, rgba(111,174,142,1) 0px 1px 3px -1px;
+    box-shadow: rgb(173, 67, 67) 0px 2px 5px -1px, rgb(173, 67, 67) 0px 1px 3px -1px;
     /* -webkit-box-shadow: 0px 0px 11px -3px rgba(31,223,100,1);
     -moz-box-shadow: 0px 0px 11px -3px rgba(31,223,100,1);
     box-shadow: 0px 0px 11px -3px rgba(31,223,100,1); */

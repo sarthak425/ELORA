@@ -13,7 +13,7 @@ const Recommendations = () => {
 
     return (
         <>
-            <div className="px-2 md:px-8 py-4 text-lg font-bold text-black">About ELORA</div>
+            <div className="px-2 md:px-8 py-4 text-lg font-bold text-black">ABOUT ELORA</div>
           <div className="w-full mt-5 px-2 md:px-8 pb-8">
 
                 {isLoading ?
