@@ -6,7 +6,7 @@ const PortfolioCard = ({ data }) => {
   <img 
     src={data?.image} 
     alt={`[${data?.image}]`} 
-    className="w-full h-full sm:h-50 md:h-60 lg:h-80 rounded-tl-lg rounded-tr-lg" 
+    className="w-full h-full sm:h-50 md:h-100 lg:h-80 rounded-tl-lg rounded-tr-lg" 
   />
 
 
