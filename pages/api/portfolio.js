@@ -15,12 +15,15 @@ const portfolio = [
                 tech: "Controls oil"
             },
             {
-                tech: "Refreshes skin"
+                tech: "Refresh skin"
             }, 
              {
             },
             {
                 tech: "Reduces pigmentation"
+            },
+            {
+                tech: "Dandruff control"
             },
         ]
     },
@@ -32,19 +35,19 @@ const portfolio = [
         projectDetail: " Known for its softening and brightening effects, it nourishes the skin with vitamins and helps achieve a milky smooth texture. ",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "Brightening & smoothness"
             },
             {
-                tech: ".net"
+                tech: "Brightens complexion"
             },
             {
-                tech: "REST API's"
+                tech: "Improves skin texture"
             },
             {
-                tech: "Ant Design"
+                tech: "Makes skin soft and radiant"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Provides gentle hydration"
             },
         ]
     },
@@ -55,16 +58,16 @@ const portfolio = [
                 projectDetail: " Combines the brightening power of Turmeric (Haldi) with the gentle exfoliation of Gram Flour (Besan). It is excellent for tan removal, fading dark spots, and achieving a radiant glow.",
                 technologiesUsed: [
                     {
-                        tech: "ReactJS"
+                        tech: "Tan removal & glow"
                     },
                     {
-                        tech: "NodeJS"
+                        tech: "Removes tan and dullness"
                     },
                     {
-                        tech: "Ant Design"
+                        tech: "Natural antibacterial protection"
                     },
                     {
-                        tech: "TailwindCSS"
+                        tech: "Enhances bridal glow"
                     },
                 ]
             },
@@ -75,19 +78,19 @@ const portfolio = [
         projectDetail: " Known for its detoxifying ability, it acts like a magnet to draw out deep-seated dirt, pollution, and oil from pores. Brightening & Exfoliating Soaps ",
         technologiesUsed: [
             {
-                tech: "Nextjs with SSR"
+                tech: "Deep detox"
             },
             {
-                tech: "Laravel"
+                tech: "Removes toxins & impurities"
             },
             {
-                tech: "REST API's"
+                tech: "Deep pore cleansing"
             },
             {
-                tech: "Ant Design"
+                tech: "Controls oil production"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Reduces blackheads"
             },
         ]
     },
@@ -98,19 +101,19 @@ const portfolio = [
         projectDetail: "Soap: A traditional Ayurvedic blend of herbs and pulses that acts as a complete body scrub. It rejuvenates dull skin, removes body hair over time, and imparts a natural, festive glow.",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "Traditional skincare lovers"
             },
             {
-                tech: ".net"
+                tech: "Natural skin cleansing"
             },
             {
-                tech: "REST API's"
+                tech: "Enhances glow naturally"
             },
             {
-                tech: "Ant Design"
+                tech: "Helps remove tan"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Improves skin texture"
             },
         ]
     },
@@ -121,19 +124,19 @@ const portfolio = [
         projectDetail: " Provides exceptional hydration and is perfect for soothing irritated, chapped, or sunburnt skin. It helps maintain skin suppleness and is gentle enough for sensitive skin",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "Daily hydration"
             },
             {
-                tech: ".net"
+                tech: "Deep skin hydration"
             },
             {
-                tech: "REST API's"
+                tech: "Soothes sunburn"
             },
             {
-                tech: "Ant Design"
+                tech: "Reduces irritation"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Helps heal minor skin damage"
             },
         ]
     },
@@ -144,19 +147,19 @@ const portfolio = [
         projectDetail: "Renowned for its cooling effect, it soothes harsh sunburns, lightens skin pigmentation, and has a relaxing, long-lasting fragrance.",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "Cooling & fragrance"
             },
             {
-                tech: ".net"
+                tech: "Soothes skin irritation"
             },
             {
-                tech: "REST API's"
+                tech: "Natural cooling effect"
             },
             {
-                tech: "Ant Design"
+                tech: "Helps reduce blemishes"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Controls excess oil"
             },
         ]
     },
@@ -168,19 +171,19 @@ const portfolio = [
         projectDetail: "Provides an instant cooling sensation and is ideal for refreshing the body during hot weather while treating minor skin itchiness.",
         technologiesUsed: [
             {
-                tech: "NextJS"
+                tech: "Refreshing bath"
             },
             {
-                tech: "NodeJS"
+                tech: "Instant cooling sensation"
             },
             {
-                tech: "REST API's"
+                tech: "Controls body odor"
             },
             {
-                tech: "MUI"
+                tech: "Refreshes tired skin"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Mild antibacterial action"
             },
         ]
     },
@@ -191,19 +194,19 @@ const portfolio = [
         projectDetail: "Deeply cleanses and absorbs excess oil while tightening the skin. It helps improve skin texture by sloughing off dead cells and is great for oily or combination skin.",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "Oily skin"
             },
             {
-                tech: "NodeJS"
+                tech: "Absorbs excess oil"
             },
             {
-                tech: "REST API's"
+                tech: "Deep pore cleansing"
             },
             {
-                tech: "Ant Design"
+                tech: "Prevents acne"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Improves skin tone"
             },
         ]
     },
@@ -214,16 +217,16 @@ const portfolio = [
         projectDetail: "Though less common, curry leaves are rich in antioxidants and help in maintaining general skin health and preventing premature aging of skin cells.",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "Pigmentation & uneven skin"
             },
             {
-                tech: "NodeJS"
+                tech: "Helps reduce Hair fall and make shine"
             },
             {
-                tech: "Ant Design"
+                tech: "Nourishes skin with herbal extracts"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Promotes even skin tone"
             },
         ]
     }, {
@@ -233,16 +236,16 @@ const portfolio = [
         projectDetail: "Provides deep moisturization and forms a protective barrier to lock in hydration, making it a top choice for extremely dry or aging skin.",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "Deeply moisturizes skin"
             },
             {
-                tech: "NodeJS"
+                tech: "Prevents dryness and flakiness"
             },
             {
-                tech: "Ant Design"
+                tech: "Improves skin elasticity"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Rich in vitamins A & E"
             },
         ]
     }, {
@@ -252,16 +255,16 @@ const portfolio = [
         projectDetail: "Purifies the skin deeply, making it effective for removing impurities and preventing breakouts. It is often paired with Neem to enhance its anti-inflammatory properties.",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "Acne-prone skin"
             },
             {
-                tech: "NodeJS"
+                tech: "Strong antibacterial properties"
             },
             {
-                tech: "Ant Design"
+                tech: "Helps fight pimples and breakouts"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Detoxifies skin naturally"
             },
         ]
     },{
@@ -271,16 +274,16 @@ const portfolio = [
         projectDetail: "Offers a calming, aromatic experience while hydrating the skin. It helps balance the skin’s pH and is particularly beneficial for dry or sensitive skin.",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "Sensitive & dry skin"
             },
             {
-                tech: "NodeJS"
+                tech: "Gently hydrates and softens skin"
             },
             {
-                tech: "Ant Design"
+                tech: "Soothes irritation and redness"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Natural glow enhancement"
             },
         ]
     }, {
@@ -290,16 +293,16 @@ const portfolio = [
         projectDetail: "Acts as a powerful antibacterial agent, ideal for acne-prone skin. It helps combat skin infections, reduces inflammation, and regulates excess oil without stripping natural moisture.",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "Fights acne & pimples"
             },
             {
-                tech: "NodeJS"
+                tech: "Controls excess oil"
             },
             {
-                tech: "Ant Design"
+                tech: "Antibacterial protection"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Clears & purifies skin"
             },
         ]
     }, 
