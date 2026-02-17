@@ -36,10 +36,10 @@ const expertise = [
         title: 'Future Growth Plan',
         desc: "Expansion into: Face washes Body washes Face packs Launch of combo kits & gift packs Strong online presence Distribution partnerships Export-ready packaging (long-term vision)",
     }, {
-        id: 8,
-        title: 'Why Invest in ELORA',
-        desc: "High-demand product category Strong branding foundation Affordable production & good margins Scalable business model Growing herbal skincare market",
-    }, 
+        id: 6,
+        title: 'Vision & Mission',
+        desc: "Vision: To become a trusted Indian herbal skincare brand delivering visible results through natural care. Mission: To provide safe, effective, and premium herbal skincare solutions that improve everyday skin health.",
+    },
 ]
 
 export default function handler(req, res) {
