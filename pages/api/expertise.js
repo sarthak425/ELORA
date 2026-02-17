@@ -39,11 +39,7 @@ const expertise = [
         id: 8,
         title: 'Why Invest in ELORA',
         desc: "High-demand product category Strong branding foundation Affordable production & good margins Scalable business model Growing herbal skincare market",
-    }, {
-        id: 6,
-        title: 'Vision & Mission',
-        desc: "Vision: To become a trusted Indian herbal skincare brand delivering visible results through natural care. Mission: To provide safe, effective, and premium herbal skincare solutions that improve everyday skin health.",
-    },
+    }, 
 ]
 
 export default function handler(req, res) {
