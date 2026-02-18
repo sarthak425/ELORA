@@ -15,17 +15,17 @@ const Recommendations = () => {
         <>
             <div className="px-2 md:px-8 py-4 text-lg font-bold text-black">ABOUT ELORA</div>
           <div className="w-full mt-5 px-2 md:px-8 pb-8">
-
-                {isLoading ?
-                    [1, 2, 3, 4].map(() => (
-                        <ParagraphSkeleton className={"p-8 h-full w-full relative"} />
-                    ))
-                    :
-                    data?.map((data, key) => (
-                        <RecommendationCard key={key} data={data} />
-                    ))
-                }
-
+                <div className="space-y-4">
+                    {isLoading ?
+                        [1, 2, 3, 4].map(() => (
+                            <ParagraphSkeleton className={"p-50 h-full w-full relative"} />
+                        ))
+                        :
+                        data?.map((data, key) => (
+                            <RecommendationCard key={key} data={data} />
+                        ))
+                    }
+                </div>
             </div>
         </>
     )

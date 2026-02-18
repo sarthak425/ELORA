@@ -2,7 +2,7 @@ const expertise = [
     {
         id: 0,
         title: 'Business Overview',
-        desc: 'ELORA is a premium herbal skincare brand focused on tan removal and skin repair, crafted using natural, time-tested Indian ingredients and presented in a modern, luxury format. Our products are designed to address everyday skin concerns caused by sun exposure, pollution, oily skin, acne, and uneven tone, without the use of harsh chemicals. ELORA combines traditional herbal wisdom with contemporary formulation standards, making our soaps safe, effective, and suitable for daily use across all age groups. The brand positions itself between mass-market soaps and expensive cosmetic brands, offering premium quality at an affordable price point.',
+        desc: 'ELORA is a premium herbal skincare brand focused on tan removal and skin repair, crafted using natural, time-tested Indian ingredients and presented in a modern, luxury format. Our products are designed to address everyday skin concerns caused by sun exposure, pollution, oily skin, acne, and uneven tone, without the use of harsh chemicals. ELORA combines traditional herbal wisdom with contemporary formulation standards, making our soaps safe, effective, and suitable for daily use across all age groups.',
     },
     {
         id: 1,
@@ -26,7 +26,7 @@ const expertise = [
     },  {
         id: 5,
         title: 'Branding & Packaging Strategy',
-        desc: "ELORA uses minimal, elegant, premium packaging inspired by luxury skincare brands. Key highlights: Soft neutral colors Ingredient-based color coding Embossed logo on soap bars Eco-friendly packaging approach This positioning helps ELORA: Look premium on shelves Gain trust from financers & distributors Appeal to modern and traditional customers alike",
+        desc: "ELORA uses minimal, elegant, premium packaging inspired by luxury skincare brands. Key highlights: Soft neutral colors Ingredient-based color coding Embossed logo on soap bars Eco-friendly packaging approach This positioning helps ELORA.",
     },  {
         id: 6,
         title: 'Sales & Market Potential',
