@@ -14,42 +14,40 @@ import BannerLayout from '../Common/BannerLayout';
 const Banner = () => {
   return (
     <BannerLayout>
-      <div className="absolute inset-0 z-20 flex flex-col items-start py-6 justify-center w-full h-full bg-gradient-to-t from-MidNightBlack ">
-          <div className="flex items-center justify-start w-full px-4 xl:px-8 2xl:px-16">
-            <div>
+      <div className="absolute inset-0 z-20 flex flex-col w-full h-full">
+        <div className="w-full max-w-6xl px-4 xl:px-8 2xl:px-16 flex flex-col gap-12 pt-16 pb-12 justify-between h-full">
+          <div className="flex items-start justify-between w-full">
+            <div className="space-y-4">
               <h1 className="text-3xl sm:text-4xl xl:text-5xl text-black font-bold">
                 ELORA
               </h1>
 
-              <div className="py-4 font-cascadia-normal text-black text-xs h-20 lg:h-auto">
-                <span>
-                  <span className="font-bold sm:text-xl xl:text-2xl">
-                    <Typewriter
-                      options={{
-                        strings: ['Naturally Better Skin'],
-                        autoStart: true,
-                        loop: true,
-                      }}
-                    />
-                  </span>
+              <div className="font-cascadia-normal text-black text-xs sm:text-sm lg:text-base min-h-[3rem] flex items-center">
+                <span className="font-bold sm:text-xl xl:text-2xl">
+                  <Typewriter
+                    options={{
+                      strings: ['Naturally Better Skin'],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
                 </span>
               </div>
-              <Link href="/portfolio" className="button !bg-rose-500 hover:!bg-red-500">
+              <Link href="/portfolio" className="button !bg-rose-500 hover:!bg-red-500 w-fit">
                 Explore
               </Link>
-              
             </div>
 
-            <div className="w-48 h-52 relative hidden md:block">
+            <div className="w-48 h-52 relative hidden md:block" />
           </div>
-        </div>
 
-        {/* Stats Row */}
-        <div className="md:flex gap-4 items-center justify-between w-full px-4 xl:px-8 2xl:px-16 text-Black ">
-          <Stat value="250+" label="Customers" />
-          <Stat value="50+" label="Return Purchases" />
-          <Stat value="600+" label="Product Sold Out" />
-          <Stat value="14" label="Categories" />
+          {/* Stats Row */}
+          <div className="flex flex-nowrap gap-11 items-start justify-between w-full text-Black text-left mt-auto pb-4">
+            <Stat value="250+" label="Customers" />
+            <Stat value="50+" label="Return Purchases" />
+            <Stat value="600+" label="Product Sold Out" />
+            <Stat value="14" label="Categories" />
+          </div>
         </div>
       </div>
     </BannerLayout>
