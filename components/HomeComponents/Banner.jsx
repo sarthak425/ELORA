@@ -43,9 +43,9 @@ const Banner = () => {
 
           {/* Stats Row */}
           <div className="flex flex-nowrap gap-11 items-start justify-between w-full text-Black text-left  pb-2 text-52px">
-            <Stat value="250+" label="Customers" />
-            <Stat value="50+" label="Return Purchases" />
-            <Stat value="600+" label="Product Sold Out" />
+            <Stat value="300+" label="Customers" />
+            <Stat value="100+" label="Return Purchases" />
+            <Stat value="800+" label="Products Sold Out" />
             <Stat value="14" label="Categories" />
           </div>
         </div>
