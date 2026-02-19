@@ -18,12 +18,12 @@ const Banner = () => {
         <div className="w-full max-w-6xl px-4 xl:px-8 2xl:px-16 flex flex-col gap-12 pt-16 pb-12 justify-between h-full">
           <div className="flex items-start justify-between w-full">
             <div className="space-y-4">
-              <h1 className="text-3xl sm:text-4xl xl:text-5xl text-black font-bold">
+              <h1 className="text-2xl sm:text- xl:text-8xl text-white font-bold font-cascadia-normal">
                 ELORA
               </h1>
 
-              <div className="font-cascadia-normal text-black text-xs sm:text-sm lg:text-base min-h-[3rem] flex items-center">
-                <span className="font-bold sm:text-xl xl:text-2xl">
+              <div className="font-cascadia-normal text-black text-xs sm:text-2 lg:text-base min-h-[5rem] flex items-center">
+                <span className="font-bold sm:text-3xl xl:text-3xl">
                   <Typewriter
                     options={{
                       strings: ['Naturally Better Skin'],
@@ -33,7 +33,7 @@ const Banner = () => {
                   />
                 </span>
               </div>
-              <Link href="/portfolio" className="button !bg-rose-500 hover:!bg-red-500 w-fit">
+              <Link href="/portfolio" className="button !bg-rose-500 hover:!bg-red-500 w-fit sm:text-2xl xl:text-2xl min-h-[6rem]">
                 Explore
               </Link>
             </div>
@@ -42,7 +42,7 @@ const Banner = () => {
           </div>
 
           {/* Stats Row */}
-          <div className="flex flex-nowrap gap-11 items-start justify-between w-full text-Black text-left mt-auto pb-4">
+          <div className="flex flex-nowrap gap-11 items-start justify-between w-full text-Black text-left  pb-2 text-52px">
             <Stat value="250+" label="Customers" />
             <Stat value="50+" label="Return Purchases" />
             <Stat value="600+" label="Product Sold Out" />
