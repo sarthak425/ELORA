@@ -12,6 +12,8 @@ import {
 import { TbTargetArrow } from "react-icons/tb";
 
 const uspImage = "/images/background.png";
+const salesMarketImage = "/images/sales-market-potential.jpeg";
+const futureGrowthImage = "/images/Future plan.jpeg";
 
 const iconMap = {
   "Business Overview": FaSeedling,
@@ -29,11 +31,19 @@ const iconMap = {
 const badgeColor = "bg-amber-100 text-amber-700 badge-glow";
 
 const ExpertiseCard = ({ data }) => {
-  const isUSP = data.title === "Unique Selling Proposition (USP)";
-  const Icon = iconMap[data.title] || FaStar;
+  const highlightedCardImages = {
+    "Unique Selling Proposition (USP)": uspImage,
+    "Sales & Market Potential": salesMarketImage,
+    "Future Growth Plan": futureGrowthImage,
+  };
 
-  if (isUSP) {
-    const imageSrc = uspImage;
+  
+
+  const Icon = iconMap[data.title] || FaStar;
+  const highlightImage = highlightedCardImages[data.title];
+
+  if (highlightImage) {
+    const imageSrc = highlightImage;
     return (
       <CardLayout className="relative overflow-hidden bg-gradient-to-br from-[#fdf5ec] via-[#f7e8d8] to-[#f2dcc8] border border-[#f3e2c9] shadow-lg rounded-2xl">
         <div className="absolute -right-12 -bottom-12 w-48 h-48 bg-[#f6e7d3] blur-3xl opacity-65" />

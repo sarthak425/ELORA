@@ -17,12 +17,12 @@ const MyExpertise = () => {
 
                 {
                     isLoading ?
-                        [1, 2, 3, 4, 5, 6].map(() => (
-                            <ParagraphSkeleton className={"space-y-2 p-8"} />
+                        [1, 2, 3, 4, 5, 6].map((item) => (
+                            <ParagraphSkeleton key={item} className={"space-y-2 p-8"} />
                         ))
                         :
-                        data?.map((data, key) => (
-                            <ExpertiseCard key={key} data={data} />
+                        data?.map((data, index) => (
+                            <ExpertiseCard key={index} data={data} />
                         ))
                 }
 
