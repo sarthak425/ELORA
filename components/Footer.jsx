@@ -13,7 +13,7 @@ const Footer = () => {
                     <span>2026 All Rights Reserved.</span>
                 </div>
                 <div className="flex items-center">
-                    <a  target="_blank" rel="noreferrer">Naturally Better Skin<span className='font-bold'>Osama</span></a>
+                    <a  target="_blank" rel="noreferrer">Naturally Better Skin</a>
                 </div>
                 <div className="hidden md:flex items-center">
                     <div className="mr-1 text-base">
