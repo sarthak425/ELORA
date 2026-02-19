@@ -14,7 +14,7 @@ import { TbTargetArrow } from "react-icons/tb";
 const uspImage = "/images/background.png";
 const salesMarketImage = "/images/sales-market-potential.jpeg";
 const futureGrowthImage = "/images/Future plan.jpeg";
-
+const target  = "/images/target customers.jpeg";
 const iconMap = {
   "Business Overview": FaSeedling,
   "Problem We Solve": FaBullseye,
@@ -35,6 +35,7 @@ const ExpertiseCard = ({ data }) => {
     "Unique Selling Proposition (USP)": uspImage,
     "Sales & Market Potential": salesMarketImage,
     "Future Growth Plan": futureGrowthImage,
+    "Target Customers": target,
   };
 
   

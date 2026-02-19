@@ -5,13 +5,16 @@ import React from 'react'
 
 const NavItem = ({ NavIcon, NavText, NavRoute, setIsOpen }) => {
     const router = useRouter();
-    const className = router.asPath === `${NavRoute}` ? "rounded-xl !text-DeepNightBlack bg-Green font-bold tracking-widest" : '';
+    const isActive = router.asPath === `${NavRoute}`;
+    const className = isActive
+        ? "rounded-xl !text-white bg-[#6ca484] font-bold tracking-widest shadow-sm"
+        : "text-[#3b2c1a]";
 
     return (
         <Link
             onClick={(e) => setIsOpen(false)}
             href={NavRoute}
-            className={`${className} transition flex items-center px-2 hover:bg-EveningBlack text-Black hover:text-Black rounded-xl py-1.5 font-semibold space-x-4 text-base`}
+            className={`${className} transition flex items-center px-3 hover:bg-[#e7d6c4] hover:text-[#2e2417] rounded-xl py-1.5 font-semibold space-x-3 text-base`}
         >
             {NavIcon}
             <span>{NavText}</span>

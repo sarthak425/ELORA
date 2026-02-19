@@ -72,29 +72,29 @@ const Contact = () => {
                 <div className="my-6 text-black flex flex-col gap-y-5 border-l">
                     <h1 className='text-lg font-bold'>Contact Information</h1>
                     <div className="flex flex-col md:flex-row items-center gap-5 text-xs">
-                        <div className="card_stylings w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
+                        <div className="w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4 bg-gradient-to-r from-[#fdf2e9] via-[#f7e8d8] to-[#f2dcc8] border border-[#f3e2c9] rounded-xl shadow-sm">
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base text-amber-900 '>Country:</span>
-                                <span className='text-LightGray md:text-sm'>India</span>
+                                <span className='text-[#5a3c1a] md:text-sm'>India</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base text-amber-900  first-letter:'>City:</span>
-                                <span className='text-LightGray md:text-sm'>pune</span>
+                                <span className='text-[#5a3c1a] md:text-sm'>pune</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base text-amber-900 '>Company:</span>
-                                <span className='text-LightGray md:text-sm'>Elora</span>
+                                <span className='text-[#5a3c1a] md:text-sm'>Elora</span>
                             </div>
                         </div>
-                        <div className="card_stylings rounded-xl w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
+                        <div className="rounded-xl w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4 bg-gradient-to-r from-[#fdf2e9] via-[#f7e8d8] to-[#f2dcc8] border border-[#f3e2c9] shadow-sm">
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base text-amber-900 '>Email:</span>
-                                <span className='text-LightGray text-sm'>sarthakkhatpe24@gmail.com</span>
+                                <span className='text-[#5a3c1a] text-sm'>sarthakkhatpe24@gmail.com</span>
                             </div>
                          
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base text-amber-900 '>Phone:</span>
-                                <span className='text-LightGray text-sm'>+92 7559463115</span>
+                                <span className='text-[#5a3c1a] text-sm'>+92 7559463115</span>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ const Contact = () => {
 
                 <div className="my-12 w-full h-auto text-black">
                     <h1 className='text-lg font-bold'>Get In Touch</h1>
-                    <div className="mt-4 py-8 px-8 bg-EveningBlack rounded-xl text-sm">
+                    <div className="mt-4 py-8 px-8 bg-gradient-to-r from-[#fdf2e9] via-[#f7e8d8] to-[#f2dcc8] border border-[#f3e2c9] rounded-xl text-sm shadow-sm">
                         <form onSubmit={handleSubmit}>
                             <div className="flex flex-col w-full">
                                 <div className="userIcon relative mb-6">
@@ -167,10 +167,10 @@ const Contact = () => {
             {/* Custom success modal */}
             {isOpen && (
                 <div className='fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 backdrop-blur-sm'>
-                    <div className='card_stylings p-8 rounded-lg shadow-2xl max-w-sm mx-4'>
+                    <div className='p-8 rounded-lg shadow-2xl max-w-sm mx-4 bg-gradient-to-r from-[#fdf2e9] via-[#f7e8d8] to-[#f2dcc8] border border-[#f3e2c9]'>
                         <div className='flex flex-col items-center justify-center'>
-                            <h1 className='text-Green font-bold text-2xl'>{modalTitle}</h1>
-                            <p className='text-Snow text-center mt-4 mb-6'>{modalMessage}</p>
+                            <h1 className='text-amber-900 font-bold text-2xl'>{modalTitle}</h1>
+                            <p className='text-[#5a3c1a] text-center mt-4 mb-6'>{modalMessage}</p>
                             <button 
                                 onClick={() => setIsOpen(false)} 
                                 className='button px-6'

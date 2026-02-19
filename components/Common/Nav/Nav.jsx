@@ -6,9 +6,16 @@ import NavItem from './NavItem'
 
 const Nav = ({ setIsOpen, isOpen }) => {
     return (
-        <nav className="w-full bg-EveningBlack border border-DarkGray/60 shadow-md rounded-xl lg:rounded-xl overflow-hidden">
+        <nav className="w-full bg-gradient-to-r from-[#fdf2e9] via-[#f7e8d8] to-[#f2dcc8] border border-[#f3e2c9] shadow-sm rounded-xl lg:rounded-xl overflow-hidden">
             <div className="flex items-center justify-between h-16 px-4">
-                <div className="text-black font-extrabold tracking-widest">ELORA</div>
+                <div className="flex items-center gap-2">
+                    <img
+                        src="/images/logo.jpeg"
+                        alt="ELORA logo"
+                        className="h-16 w-16 rounded-full object-cover border border-[#f3e2c9]"
+                    />
+                    <span className="text-black font-extrabold tracking-widest">ELORA</span>
+                </div>
                 <button
                     type="button"
                     onClick={() => setIsOpen(!isOpen)}

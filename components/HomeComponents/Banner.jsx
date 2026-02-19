@@ -14,7 +14,7 @@ import BannerLayout from '../Common/BannerLayout';
 const Banner = () => {
   return (
     <BannerLayout>
-      <div className="absolute inset-0 z-20 flex flex-col items-start py-6 justify-center w-full h-full bg-gradient-to-t from-MidNightBlack">
+      <div className="absolute inset-0 z-20 flex flex-col items-start py-6 justify-center w-full h-full bg-gradient-to-t from-MidNightBlack ">
           <div className="flex items-center justify-start w-full px-4 xl:px-8 2xl:px-16">
             <div>
               <h1 className="text-3xl sm:text-4xl xl:text-5xl text-black font-bold">
