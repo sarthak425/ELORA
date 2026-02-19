@@ -15,6 +15,12 @@ const uspImage = "/images/background.png";
 const salesMarketImage = "/images/sales-market-potential.jpeg";
 const futureGrowthImage = "/images/Future plan.jpeg";
 const target  = "/images/target customers.jpeg";
+const overview  = "/images/overview.jpeg";
+const Problemwe  = "/images/Problemwe.jpeg";
+const Product  = "/images/Product.jpeg";
+const Branding  = "/images/Branding.jpeg";
+const Vision  = "/images/Vision.png";
+
 const iconMap = {
   "Business Overview": FaSeedling,
   "Problem We Solve": FaBullseye,
@@ -36,6 +42,11 @@ const ExpertiseCard = ({ data }) => {
     "Sales & Market Potential": salesMarketImage,
     "Future Growth Plan": futureGrowthImage,
     "Target Customers": target,
+    "Business Overview": overview,
+    "Problem We Solve": Problemwe,
+    "Our Product Range": Product,
+    "Branding & Packaging Strategy": Branding,
+    "Vision & Mission": Vision,
   };
 
   

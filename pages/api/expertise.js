@@ -2,7 +2,7 @@ const expertise = [
     {
         id: 0,
         title: 'Business Overview',
-        desc: 'ELORA is a premium herbal skincare brand focused on tan removal and skin repair, crafted using natural, time-tested Indian ingredients and presented in a modern, luxury format. Our products are designed to address everyday skin concerns caused by sun exposure, pollution, oily skin, acne, and uneven tone, without the use of harsh chemicals. ELORA combines traditional herbal wisdom with contemporary formulation standards, making our soaps safe, effective, and suitable for daily use across all age groups.',
+        desc: 'ELORA is a premium herbal skincare brand focused on tan removal and skin repair, crafted using natural, time-tested Indian ingredients and presented in a modern, luxury format. Our products are designed to address everyday skin concerns caused by sun exposure, pollution, oily skin, acne, and uneven tone, without the use of harsh chemicals. ELORA combines traditional herbal wisdom with contemporary formulation standards .',
     },
     {
         id: 1,
@@ -12,7 +12,7 @@ const expertise = [
     {
         id: 2,
         title: 'Our Product Range',
-        desc: 'ELORA offers a focused yet scalable product line of herbal tan-removal soaps, each designed for specific skin needs: Neem – Acne control & oily skin care Aloe Vera – Hydration & soothing Haldi & Besan – Tan removal & brightening Rose – Skin calming & freshness Rice Milk – Whitening & smooth texture Charcoal – Deep cleansing & pollution defense Tulsi – Anti-bacterial protection Sandalwood – Even tone & luxury care Multani Mitti – Oil control & detox Pudina & Lemon – Cooling & refreshing Shea Butter – Nourishment for dry skin Ubtan – Traditional glow & exfoliation Each soap is 100% herbal-inspired, free from harsh chemicals, and suitable for daily use.',
+        desc: 'ELORA offers a focused yet scalable product line of herbal tan-removal soaps, each designed for specific skin needs: Neem – Traditional glow & exfoliation Each soap is 100% herbal-inspired, free from harsh chemicals, and suitable for daily use.',
     },
     {
         id: 3,
